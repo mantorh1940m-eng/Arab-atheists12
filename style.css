@@ -64,3 +64,29 @@ pre {
     line-height: 1.6;
     color: #adbac7;
 }
+
+/* رتب المبرمجين - REVENGEE RANKING */
+.karma-badge {
+    background: linear-gradient(45deg, #00ff9d, #0088ff);
+    color: #000;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 255, 157, 0.3);
+}
+
+.xp-bar {
+    height: 4px;
+    background: #111;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.xp-progress {
+    height: 100%;
+    background: #00ff9d;
+    width: 65%; /* محاكاة للتقدم */
+    box-shadow: 0 0 8px #00ff9d;
+}
