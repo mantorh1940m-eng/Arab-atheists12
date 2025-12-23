@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVENGEE DEBUGGER | Professional Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white">
+
+    <nav class="nav-glass p-5 border-b border-zinc-800 flex justify-between items-center sticky top-0 z-50">
+        <div class="logo-area">
+            <h1 class="text-2xl font-black text-green-500 tracking-tighter">REV<span class="text-white">ENGER</span></h1>
+            <span class="text-[8px] block text-zinc-500 uppercase tracking-widest">Dev: @Wacut_e</span>
+        </div>
+        <div class="text-xs font-mono text-zinc-400">
+            SECURE_PORT: <span class="text-green-500">2919</span>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <section class="lg:col-span-4 space-y-6">
+            <div class="card p-6 rounded-3xl border border-zinc-800 bg-zinc-900/50">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                    <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                    اطلب حلاً لكودك
+                </h2>
+                <div class="space-y-4">
+                    <input type="text" id="devName" placeholder="معرف المبرمج (مثل: @Wacut_e)" class="input-field">
+                    <textarea id="rawCode" rows="10" placeholder="الصق الكود هنا..." class="input-field font-mono text-xs"></textarea>
+                    <button id="submitBtn" class="primary-btn">نشر المشكلة البرمجية</button>
+                </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-gradient-to-r from-zinc-900 to-black border border-zinc-800 text-[10px] text-zinc-500">
+                <p>Owner: revengee2919@gmail.com</p>
+                <p>Insta: @Wacut_e</p>
+            </div>
+        </section>
+
+        <section class="lg:col-span-8">
+            <h2 class="text-xl font-black mb-6 border-r-4 border-green-500 pr-4">الأكواد المنتظرة (Live Feed)</h2>
+            <div id="feed" class="space-y-6">
+                </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
